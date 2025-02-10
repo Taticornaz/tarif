@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import './TariffCard.css';
+import './TariffCard.module.scss';
 
 const TariffCard = ({ name, price, speed, dataLimit, isHighlighted, colorScheme }) => {
   const defaultColors = {
